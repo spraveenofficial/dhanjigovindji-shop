@@ -1,5 +1,5 @@
-var cors = ('http://cors-anywhere.herokuapp.com/')
-fetch( cors + 'http://ritikakeel.com/vinny/vinnytam')
+var cors = ('https://cors-anywhere.herokuapp.com/')
+fetch( cors + 'https://ritikakeel.com/vinny/vinnytam')
 .then(response => response.json())
 .then(data => {
   var bread_difference = 250;
