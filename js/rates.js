@@ -7,7 +7,7 @@ fetch( cors + 'http://ritikakeel.com/vinny/vinnytam')
   rateData = data.Bhaw;
   firstData = data.Bhaw[0].Gold_RED;
   secondData = data.Bhaw[0].Gold_RED - bread_difference;
-  thirdData = data.Bhaw[0].Silver;
+  thirdData = data.Bhaw[0].Silver_RED;
   lastUpdated = data.Bhaw[0].TimeGold;
   console.log(firstData)
   console.log(secondData)
